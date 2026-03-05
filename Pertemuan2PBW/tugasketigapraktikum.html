@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="title">Selamat Datang di Website Sederhana</h1>
+
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Beranda</a></li>
+          <li class="nav-item"><a href="#">Tentang</a></li>
+          <li class="nav-item"><a href="#">Layanan</a></li>
+          <li class="nav-item"><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="form-section">
+        <h2 class="form-title">Formulir Pendaftaran</h2>
+        <p class="form-desc">
+          Silakan isi formulir di bawah ini untuk mendaftar.
+        </p>
+
+        <form class="form">
+          <label class="label">Nama Lengkap</label>
+          <input class="input" type="text" />
+
+          <label class="label">Email</label>
+          <input class="input" type="email" />
+
+          <label class="label">Password</label>
+          <input class="input" type="password" />
+
+          <label class="label">Jenis Kelamin</label>
+
+          <div class="radio-group">
+            <input type="radio" name="gender" /> Laki-laki
+            <input type="radio" name="gender" /> Perempuan
+          </div>
+
+          <label class="label">Hobi</label>
+
+          <div class="checkbox-group">
+            <input type="checkbox" /> Musik <input type="checkbox" /> Olahraga
+            <input type="checkbox" /> Membaca
+          </div>
+
+          <label class="label">Pilih Kota</label>
+
+          <select class="select">
+            <option>Jakarta</option>
+            <option>Bekasi</option>
+            <option>Karawang</option>
+            <option>Cikampek</option>
+          </select>
+
+          <label class="label">Pesan Tambahan</label>
+
+          <textarea
+            class="textarea"
+            placeholder="Tulis pesan di sini..."
+          ></textarea>
+
+          <button class="btn">Kirim</button>
+        </form>
+      </div>
+
+      <div class="sidebar">
+        <h3>Sidebar</h3>
+
+        <p>
+          Bagian sidebar dapat berisi tautan, informasi tambahan, atau
+          pengumuman penting.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
